@@ -27,7 +27,7 @@
 */
 
 body {
-  background-color: #ffffff;
+  background-color: #FEFAE0;
   font-family: "Prata", serif;
   color: #333333;
   font-size: 15px;
@@ -867,7 +867,7 @@ RESERVATION SECTION
   padding: 6px;
 }
 
-.datepicker table tr td.day:hover {
+.startdatepicker table tr td.day:hover {
   color: #fff;
 }
 
@@ -1413,17 +1413,20 @@ RESERVATION SECTION
  MAP SECTION
 ====================*/
 
-#mu-map {
-  display: inline;
-  float: left;
-  height: 450px;
-  width: 100%;
-}
 
-#mu-map iframe {
-  width: 100%;
-  height: 100%;
-}
+  #mu-map {
+    display: inline;
+    float: left;
+    height: 450px;
+    width: 100%;
+    border: 1px solid #000;
+  }
+
+  #mu-map iframe {
+    width: 100%;
+    height: 100%;
+  }
+
 
 /*==================
  FOOTER SECTION

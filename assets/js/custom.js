@@ -55,7 +55,8 @@ jQuery(function($){
   /*  3. DATEPICKER
   /* ----------------------------------------------------------- */      
 
-    jQuery('#datepicker').datepicker();
+    jQuery('#startdatepicker').datepicker();
+    jQuery('#enddatepicker').datepicker();
 
   /* ----------------------------------------------------------- */
   /* 4. SHEF SLIDER (SLICK SLIDER)
